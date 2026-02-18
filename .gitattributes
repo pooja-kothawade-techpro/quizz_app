@@ -2,3 +2,19 @@
 * text=auto
 tech stack- java,jar files, xml,sql
 *.php linguist-vendored
+
+
+# Normalize line endings
+* text=auto
+
+# Ignore JARs completely
+*.jar linguist-vendored
+
+# Force correct language mapping
+*.java linguist-language=Java
+*.xml linguist-language=XML
+*.sql linguist-language=SQL
+
+# Suppress PHP from stats
+*.php linguist-vendored
+*.php linguist-detectable=false
