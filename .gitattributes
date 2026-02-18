@@ -18,3 +18,6 @@ tech stack- java,jar files, xml,sql
 # Suppress PHP from stats
 *.php linguist-vendored
 *.php linguist-detectable=false
+
+.gitattributes linguist-detectable=false
+
